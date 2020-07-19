@@ -62,7 +62,6 @@ client.on("message", (message) => {
 			  }
 			  return;
 			}
-			//console.log(attachName + ` - FALHA - '`+ replies[result]+`' - ${err}`);
 			}).catch(err => {clearInterval(this); setInterval(intervalo, replies[result]);});
 
 		}).catch(err => {clearInterval(this); setInterval(intervalo, replies[result]);});
