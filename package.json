@@ -1,7 +1,7 @@
 {
   "name": "virusdetect-by-joaootavios",
   "version": "1.0.0",
-  "description": "amazin bot",
+  "description": "amazing bot",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.2.0",
